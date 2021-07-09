@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "page/home/home",
+    "page/about/about",
+    "page/profile/profile",
+    "page/category/category"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#B1D4FF",
+    "navigationBarTitleText": "穿衣秀",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "page/home/home",
+        "text": "潮流",
+        "iconPath": "assets/tabbar/glasses.png",
+        "selectedIconPath": "assets/tabbar/glasses_active.png"
+      },
+      {
+        "pagePath": "page/about/about",
+        "text": "时尚",
+        "iconPath": "assets/tabbar/clothes.png",
+        "selectedIconPath": "assets/tabbar/clothes_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

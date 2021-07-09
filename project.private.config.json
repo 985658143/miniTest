@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "时尚窗口",
+          "pathName": "page/about/about",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
