@@ -1,9 +1,8 @@
 {
   "pages": [
-    "page/home/home",
-    "page/about/about",
-    "page/profile/profile",
-    "page/category/category"
+    "pages/home/home",
+    "pages/about/about",
+    "pages/profile/profile"
   ],
   "window": {
     "navigationBarBackgroundColor": "#B1D4FF",
@@ -15,13 +14,13 @@
     "selectedColor": "#1296db",
     "list": [
       {
-        "pagePath": "page/home/home",
+        "pagePath": "pages/home/home",
         "text": "潮流",
         "iconPath": "assets/tabbar/glasses.png",
         "selectedIconPath": "assets/tabbar/glasses_active.png"
       },
       {
-        "pagePath": "page/about/about",
+        "pagePath": "pages/about/about",
         "text": "时尚",
         "iconPath": "assets/tabbar/clothes.png",
         "selectedIconPath": "assets/tabbar/clothes_active.png"
