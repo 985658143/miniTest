@@ -1,0 +1,5 @@
+/* pages/button/button.wxss */
+.press{
+  background:skyblue;/*按下去的背景颜色*/
+  color: #fbfdfd;/*按下去的文本颜色*/
+}
