@@ -1,8 +1,12 @@
 {
   "pages": [
+    "pages/scroll/scroll",
+    "pages/input/input",
+    "pages/image/image",
+    "pages/view/view",
     "pages/home/home",
-    "pages/about/about",
-    "pages/profile/profile"
+    "pages/about/about"
+  
   ],
   "window": {
     "navigationBarBackgroundColor": "#B1D4FF",

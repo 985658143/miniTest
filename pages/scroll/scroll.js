@@ -1,4 +1,4 @@
-// page/profile/profile.js
+// pages/scroll/scroll.js
 Page({
 
   /**
@@ -7,7 +7,9 @@ Page({
   data: {
 
   },
-
+  handleScroll(event) {
+    console.log("正在滚动", event)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

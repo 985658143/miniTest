@@ -1,0 +1,21 @@
+<!-- 1.input的基本使用 -->
+<input placeholder="nihao"></input>
+
+<!-- 2.value: input中的默认值 -->
+<input value="哈哈哈"></input>
+
+<!-- 3.type: 决定输入类型（） -->
+<input type="number" />
+<input type="idcard" />
+
+<!-- 3.password: 暗文 -->
+<input type="password" />
+<input password />
+
+<!-- 4.confirm-btn 输入框按钮选择 -->
+
+<!-- 5.input绑定事件 -->
+<input bindinput="handleInput"/>
+<input bindfocus="handleFocus"/>
+<input bindblur="handleBlur"/>
+
