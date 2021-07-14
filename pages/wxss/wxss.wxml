@@ -1,0 +1,22 @@
+<!-- 1.设置样式的三种方式 -->
+
+<!-- 1.1行内样式 -->
+<text style="color: red">Hello world</text>
+
+<!-- 1.2 页内样式-->
+<view class="box">呵呵</view>
+
+<!-- 1.2 全局样式-->
+<view class="container">嘿嘿嘿</view>
+
+<!-- 2. 三种的样式作用于同一个组件：行内>页内>全局-->
+<view style="color: pink" class="content">嘿嘿嘿</view>
+
+<!-- 3. wxss中的单位: rpx等于px一半 可自适应-->
+<view class="box1"></view>
+<view class="box2"></view>
+
+<view class="box3">hhhhh</view>
+<view class="box4">qqqqq</view>
+
+<button class="btn">按钮</button>

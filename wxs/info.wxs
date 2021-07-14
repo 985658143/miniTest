@@ -1,0 +1,18 @@
+//js代码
+  var message = "Hello world";
+  var name = "coderwhy";
+
+  var sum = function(num1,num2) {
+    return num1 + num2
+  }
+
+  var test = function () {
+    return "test function"
+  }
+
+  module.exports = {
+    message: message,
+    name: name,
+    sum: sum,
+    test: test
+  }

@@ -1,0 +1,11 @@
+@import '/style/btn.wxss';
+
+.container {
+  color: black;
+  font-size: larger;
+}
+.content {
+  color: black;
+  font-size: larger;
+}
+

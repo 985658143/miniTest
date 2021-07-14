@@ -1,0 +1,15 @@
+/* pages/wxss/wxss.wxss *//* page/home.wxss */
+@import './style/box.wxss';
+@import './style/content.wxss';
+
+.box {
+  color: blue;
+  font-size: 32px;
+}
+.content {
+  color: black;
+  font-size: larger;
+}
+
+
+
