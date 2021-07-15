@@ -1,4 +1,12 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "my-style": "/components/my-style/my-style",
+    "my-prop": "/components/my-prop/my-prop",
+    "my-event": "/components/my-event/my-event",
+    "tab-control": "/components/tab-control/tab-control",
+    "my-select": "/components/my-select/my-select",
+    "my-slot": "/components/my-slot/my-slot",
+    "mul-slot": "/components/mul-slot/mul-slot"
+  }
 
 }

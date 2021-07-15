@@ -1,0 +1,47 @@
+/* components/tab-control/tab-control.wxss */
+
+.tab-control {
+  display: flex;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
+
+.tab-item {
+  flex: 1;
+  text-align: center;
+}
+
+.active {
+  color: pink;
+}
+
+.active text {
+  padding: 20rpx 13rpx;
+  border-bottom: 8rpx solid pink;
+}
+
+.box_wrapper {
+  display: block;
+}
+
+.box {
+  display: none;
+  width: 300rpx;
+  height: 300rpx;
+}
+
+.box0 {
+  display: block;
+  background: blue;
+}
+
+.box1 {
+  display: block;
+  background: black;
+}
+
+.box2 {
+  display: block;
+  background: red;
+}
