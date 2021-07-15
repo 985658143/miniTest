@@ -1,65 +1,61 @@
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-    
+    titles: ['衣服','裤子','鞋子']
+  },
+  handleBtnClick() {
+    console.log('按钮发生点击')
+  },
+  boxClick() {
+    console.log('boxClick')
+  },
+  boxMove() {
+    console.log('boxMove')
+  },
+  boxEnd() {
+    console.log('boxEnd')
+  },
+  boxTap() {
+    console.log('boxTap')
+  },
+  boxLongpress() {
+    console.log('boxLongpress')
+  },
+  eventClick(event) {
+    console.log('eventClick',event)
+  },
+  handleInner(event) {
+    console.log('handleInner',event)
+  },
+  handleOuter(event) {
+    console.log('handleOuter',event)
+  },
+  itemClick(event) {
+    console.log('itemClick',event)
+
+    const dataset = event.currentTarget.dataset;
+    const title = dataset.item;
+    const index=  dataset.index;
+    console.log(title,index)
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-    
+  // ------------事件冒泡和事件捕获-------------
+  handleCapture1(event) {
+    console.log('handleCapture1',event)
+  },
+  handleBind1(event) {
+    console.log('handleBind1',event)
+  },
+  handleCapture2(event) {
+    console.log('handleCapture2',event)
+  },
+  handleBind2(event) {
+    console.log('handleBind2',event)
+  },
+  handleCapture3(event) {
+    console.log('handleCapture3',event)
+  },
+  handleBind3(event) {
+    console.log('handleBind3',event)
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-    
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-    
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-    
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-    
-  }
 })
