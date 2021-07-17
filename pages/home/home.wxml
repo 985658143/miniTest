@@ -1,1 +1,29 @@
 <!--page/home.wxml-->
+<!-- 1.页面跳转 navigator-->
+<navigator url='/pages/detail/detail'>跳转到详情页</navigator>
+
+<!-- 2.navigator属性： open-type
+    redirect：关闭当前页面
+    relaunch：关闭所有页面 跳转到某一个页面
+    switchTab: 切换tabBar
+ -->
+<navigator url='/pages/detail/detail' 
+           open-type="redirect">
+           跳转到详情页(redirect)
+</navigator>
+<navigator url='/pages/about/about' 
+           open-type="switchTab">
+           跳转到详情页(switchTab)
+</navigator>
+<navigator url='/pages/detail/detail' 
+           open-type="reLaunch">
+           跳转到详情页(reLaunch)
+</navigator>
+
+
+<!-- 3.跳转过程中数据的传递 -->
+<navigator url="/pages/detail/detail?name=why&age=19&height=1.88">跳转到详情页</navigator>
+<view>{{title}}</view>
+
+<!-- 4.通过代码进行页面跳转 -->
+<button size="mini" bindtap="handleDetail">跳到详情页</button>
