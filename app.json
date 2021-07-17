@@ -1,31 +1,40 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about",
+    "pages/category/category",
+    "pages/cart/cart",
     "pages/profile/profile"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#B1D4FF",
-    "navigationBarTitleText": "穿衣秀",
-    "backgroundColor": "#ffffff",
-    "enablePullDownRefresh": true
+    "navigationBarBackgroundColor": "#92B6F1",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "selectedColor": "#1296db",
-    "list": [
-      {
-        "pagePath": "pages/home/home",
-        "text": "潮流",
-        "iconPath": "assets/tabbar/glasses.png",
-        "selectedIconPath": "assets/tabbar/glasses_active.png"
-      },
-      {
-        "pagePath": "pages/about/about",
-        "text": "时尚",
-        "iconPath": "assets/tabbar/clothes.png",
-        "selectedIconPath": "assets/tabbar/clothes_active.png"
-      }
-    ]
-  },
-  "sitemapLocation": "sitemap.json"
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/assets/tabbar/home.png",
+      "selectedIconPath": "/assets/tabbar/home_active.png"
+    },
+    {
+      "pagePath": "pages/category/category",
+      "text": "分类",
+      "iconPath": "/assets/tabbar/category.png",
+      "selectedIconPath": "/assets/tabbar/category_active.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "/assets/tabbar/cart.png",
+      "selectedIconPath": "/assets/tabbar/cart_active.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "/assets/tabbar/profile.png",
+      "selectedIconPath": "/assets/tabbar/profile_active.png"
+    }
+  ]
+  }
 }

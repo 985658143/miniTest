@@ -1,1 +1,2 @@
-<!--page/home.wxml-->
+<l-swiper list="{{banner}}" class="swiperStyle"></l-swiper>
+

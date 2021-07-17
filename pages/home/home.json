@@ -1,4 +1,11 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "l-swiper": "/components/l-swiper/l-swiper"
+  },
+  "navigationBarTitleText": "首页",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
 
-}
+
