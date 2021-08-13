@@ -1,0 +1,10 @@
+<!--page/home.wxml-->
+<!-- 1.展示轮播图 -->
+<swiper class='swiper swipersize' circular autoplay interval="3000" duration="300" indicator-dots
+        indicator-active-color="#1296db">
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item class="swiper-item" >
+      <a href="{{item.link}}"><image src="{{item.image}}" mode="widthFix" class="swiperimg"/></a>
+    </swiper-item>
+  </block>
+</swiper>

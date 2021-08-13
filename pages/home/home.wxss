@@ -1,0 +1,44 @@
+/* page/home.wxss */
+
+.swipersize {
+  width: 750rpx;
+  height: 390rpx;
+}
+
+.swiperimg {
+  width: 750rpx;
+}
+
+.recommend {
+  width: 750rpx;
+  text-align: center;
+}
+
+.rec_item {
+  display: inline-block
+}
+
+.rec_item image{
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 30rpx 13rpx 0 13rpx;
+}
+
+.rec_text {
+  display: block;
+  margin-top: 10rpx;
+  text-align: center;
+  padding-bottom: 40rpx;
+  border-bottom: 16rpx solid #eee;
+  color: #777;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
