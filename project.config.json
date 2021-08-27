@@ -4,26 +4,46 @@
     "ignore": []
   },
   "setting": {
+<<<<<<< HEAD
     "urlCheck": true,
     "scopeDataCheck": false,
     "coverView": true,
     "es6": false,
+=======
+    "urlCheck": false,
+    "es6": false,
+    "enhance": true,
+>>>>>>> lzf
     "postcss": true,
-    "compileHotReLoad": false,
-    "lazyloadPlaceholderEnable": false,
     "preloadBackgroundData": false,
     "minified": true,
-    "autoAudits": false,
     "newFeature": false,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
     "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
     "uploadWithSourceMap": true,
-    "useIsolateContext": true,
-    "nodeModules": false,
-    "enhance": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
     "useApiHostProcess": true,
+<<<<<<< HEAD
     "showShadowRootInWxmlPanel": true,
+=======
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+>>>>>>> lzf
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true

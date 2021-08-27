@@ -1,0 +1,4 @@
+/* components/l-goods/l-goods.wxss */
+.goods_title {
+  margin-bottom: 10rpx;
+}

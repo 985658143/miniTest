@@ -1,0 +1,2 @@
+<!--components/l-goods-item/l-goods-item.wxml-->
+<image src="{{item.thumbnail_pic_s}}" mode="widthFix"></image>

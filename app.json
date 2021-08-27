@@ -1,20 +1,24 @@
 {
   "pages": [
     "pages/home/home",
+<<<<<<< HEAD
     "pages/about/about",
+=======
+    "pages/category/category",
+    "pages/cart/cart",
+>>>>>>> lzf
     "pages/profile/profile"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#B1D4FF",
-    "navigationBarTitleText": "穿衣秀",
-    "backgroundColor": "#ffffff",
-    "enablePullDownRefresh": true
+    "navigationBarBackgroundColor": "#92B6F1",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "selectedColor": "#1296db",
     "list": [
       {
         "pagePath": "pages/home/home",
+<<<<<<< HEAD
         "text": "潮流",
         "iconPath": "assets/tabbar/glasses.png",
         "selectedIconPath": "assets/tabbar/glasses_active.png"
@@ -24,6 +28,29 @@
         "text": "时尚",
         "iconPath": "assets/tabbar/clothes.png",
         "selectedIconPath": "assets/tabbar/clothes_active.png"
+=======
+        "text": "首页",
+        "iconPath": "/assets/common/home.png",
+        "selectedIconPath": "/assets/common/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/assets/common/category.png",
+        "selectedIconPath": "/assets/common/category_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/assets/common/cart.png",
+        "selectedIconPath": "/assets/common/cart_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/assets/common/profile.png",
+        "selectedIconPath": "/assets/common/profile_active.png"
+>>>>>>> lzf
       }
     ]
   },

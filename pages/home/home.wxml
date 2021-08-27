@@ -1,1 +1,29 @@
+<<<<<<< HEAD
 <!--page/home.wxml-->
+=======
+<!-- 1.展示轮播图 -->
+<l-swiper list="{{banner}}" swipersize="swipersize" swiperimg="swiperimg"></l-swiper>
+
+<!-- 2.推荐数据的展示 -->
+<view class="recommend">
+  <block wx:for="{{recommend}}" wx:key="index">
+    <view class="rec_item">
+      <image src="{{item.image}}" class="rec_img" mode="widthFix"></image>
+      <text class="rec_text">{{item.title}}</text>
+    </view>
+  </block>
+</view>
+<!-- 3.tab-control -->
+<tab-control titles="{{titles}}" 
+             bind:itemClick="itemClick"
+             class="{{isFixed ? 'fixed' : ''}}"
+             id="tab-control">
+</tab-control>
+<tab-control titles="{{titles}}" wx:if="{{isFixed}}"/>
+
+<!-- 4.goods -->
+<l-goods goodsList="{{news[currentType].list}}"></l-goods>
+
+<!-- 5.back-top -->
+<back-top wx:if="{{showBackTop}}"></back-top>
+>>>>>>> lzf

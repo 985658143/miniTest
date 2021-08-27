@@ -1,4 +1,21 @@
 {
+<<<<<<< HEAD
   "usingComponents": {}
 
 }
+=======
+  "usingComponents": {
+    "l-swiper": "/components/l-swiper/l-swiper",
+    "tab-control": "/components/tab-control/tab-control",
+    "l-goods": "/components/l-goods/l-goods",
+    "l-goods-item": "/components/l-goods-item/l-goods-item",
+    "back-top": "/components/back-top/back-top"
+  },
+  "navigationBarTitleText": "首页",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+
+
+>>>>>>> lzf

@@ -1,0 +1,5 @@
+/* components/l-goods-item/l-goods-item.wxss */
+image {
+  width: 750rpx;
+  height: 390rpx;
+}
